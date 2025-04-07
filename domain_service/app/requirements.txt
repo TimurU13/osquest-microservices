@@ -1,0 +1,8 @@
+python-json-logger
+python-logstash
+fastapi
+uvicorn
+grpcio
+grpcio-tools
+pymongo
+pika

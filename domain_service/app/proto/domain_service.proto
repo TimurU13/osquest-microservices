@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package domain;
+
+service DomainService {
+    rpc GetBlog(GetRequest) returns (GetResponse);
+    rpc ListBlogs(ListRequest) returns (ListResponse);
+}
+
+message GetRequest {
+    string id = 1;
+}
+
+message GetResponse {
+    string blog = 1;
+}
+
+message ListRequest {
+}
+
+message Blog {
+    string id = 1;
+    string title = 2;
+    string author = 3;
+    string create_year = 4;
+    string text = 5;
+}
+
+message ListResponse {
+    repeated Blog blogs = 1;
+}

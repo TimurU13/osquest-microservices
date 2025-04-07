@@ -1,0 +1,12 @@
+redis
+pika
+prometheus-client
+python-json-logger
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-fastapi
+python-logstash
+fastapi
+uvicorn
+grpcio
+grpcio-tools
